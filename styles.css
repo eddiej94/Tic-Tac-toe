@@ -1,0 +1,80 @@
+body {
+    margin: auto;
+    padding: auto;
+    color: #FCB5AC;
+    font-family: 'Architects Daughter', cursive;
+    background-color: #B4F8C8;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .container{
+    margin: 0;
+    padding-top: 0;
+  }
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 54px;
+  }
+  h2 {
+    float: left;
+    padding: 0px 50px 0px 50px
+  }
+  h2#player1_Win{
+    padding-left: 5px;
+  }
+  h2#player2_Win{
+    padding-left: 5px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .container {
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #ourBoard {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .box {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCB5AC;
+    font-family:'Architects Daughter', cursive; 
+    border-style: solid;
+    font-size: 75px;
+    transition: 200ms transform;
+  }
+  .box:hover {
+    cursor: pointer;
+    transition: 200ms transform;
+    transform: translateY(-2px);
+  }
+  button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #FCB5AC;
+    color: whitesmoke;
+    border-color: #FCB5AC;
+    font-size: 18px;
+    transition: 200ms transform;
+  }
+  #restart-btn {
+    font-family: 'Architects Daughter', cursive;
+  }
+  button:hover {
+      cursor: pointer;
+      transition: 200ms transform;
+      transform: translateY(-2px);
+  }
